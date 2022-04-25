@@ -16,6 +16,7 @@ const calculator = (a: number, b: number, op: Operation): Result => {
     }
 }
 
+
 try {
     console.log(calculator(5, 6, 'divide'));
 } catch (error: unknown) {
