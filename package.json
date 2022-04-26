@@ -7,9 +7,13 @@
     "ts-node": "^10.7.0",
     "typescript": "^4.6.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/node": "^17.0.27"
+  },
   "scripts": {
-    "ts-node": "ts-node"
+    "ts-node": "ts-node",
+    "multiply": "ts-node multiplier.ts",
+    "calculate": "ts-node calculator.ts"
   },
   "author": "",
   "license": "ISC"
